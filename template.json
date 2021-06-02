@@ -1,29 +1,35 @@
 {
-	"package": {
-		"dependencies": {
-			"@testing-library/jest-dom": "^5.11.4",
-			"@testing-library/react": "^11.1.0",
-			"@testing-library/user-event": "^12.1.10",
-			"@types/node": "^12.0.0",
-			"@types/react": "^17.0.0",
-			"@types/react-dom": "^17.0.0",
-			"@types/jest": "^26.0.15",
-			"typescript": "^4.1.2"
-		},
-		"devDependencies": {
-			"@craco/craco": "^6.1.2",
-			"autoprefixer": "^9.8.6",
-			"postcss": "^7.0.35",
-			"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2"
-		},
-		"eslintConfig": {
-			"extends": ["react-app", "react-app/jest"]
-		},
-		"scripts": {
-			"start": "craco start",
-			"build": "craco build",
-			"test": "craco test",
-			"eject": "react-scripts eject"
-		}
-	}
+  "package": {
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.1.0",
+      "@testing-library/user-event": "^12.1.10",
+      "@types/node": "^12.0.0",
+      "@types/react": "^17.0.0",
+      "@types/react-dom": "^17.0.0",
+      "@types/jest": "^26.0.15",
+      "typescript": "^4.1.2"
+    },
+    "devDependencies": {
+      "@craco/craco": "^6.1.2",
+      "autoprefixer": "^9.8.6",
+      "postcss": "^7.0.35",
+      "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2",
+      "@tailwindcss/typography": "^0.4.1",
+      "tailwindcss-border-gradients": "^2.0.3",
+      "tailwindcss-gradients": "^3.0.0",
+      "tailwindcss-debug-screens": "^2.0.0",
+      "tailwindcss-scroll-snap": "^1.1.0",
+      "tailwindcss-elevation": "^1.0.1"
+    },
+    "eslintConfig": {
+      "extends": ["react-app", "react-app/jest"]
+    },
+    "scripts": {
+      "start": "craco start",
+      "build": "craco build",
+      "test": "craco test",
+      "eject": "react-scripts eject"
+    }
+  }
 }
