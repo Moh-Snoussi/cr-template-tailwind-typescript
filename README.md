@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Description
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) --template typescript. it has tailwindcss with few plugin and removes some boilerplate code.
+
+# Start
+```sh
+npx create-react-app my_path --template typescript-tailwind
+cd my_path
+npm run start # yarn start
+``` 
+
+![](react-typescript-tailwind.png)
+
 
 ## Tailwindcss
 Tailwindcss is a utility first css framework that helps build and compose design in the HTML markup.
