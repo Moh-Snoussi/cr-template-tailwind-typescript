@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Start
 ```sh
-npx create-react-app my_path --template typescript-tailwind
+npx create-react-app my_path --template ts-wind
 cd my_path
 npm run start # yarn start
 ``` 

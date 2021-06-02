@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import splashMd from "./Asssets/images/splash/splash-md.webp"
-import splashSm from "./Asssets/images/splash/splash-sm.webp"
-import splashLg from "./Asssets/images/splash/splash-lg.webp"
-import splashXl from "./Asssets/images/splash/splash-xl.webp"
+import splashMd from "./../Asssets/images/splash/splash-md.webp"
+import splashSm from "./../Asssets/images/splash/splash-sm.webp"
+import splashLg from "./../Asssets/images/splash/splash-lg.webp"
+import splashXl from "./../Asssets/images/splash/splash-xl.webp"
 class Splash extends Component {
     render() {
         return (
