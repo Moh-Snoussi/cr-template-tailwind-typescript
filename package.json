@@ -1,13 +1,14 @@
 {
-	"name": "react-typescript",
+	"name": "react-typescript-tailwind",
 	"version": "1.1.2",
 	"keywords": [
 		"react",
 		"create-react-app",
 		"template",
-		"typescript"
+		"typescript",
+		"tailwindcss"
 	],
-	"description": "The base TypeScript template for Create React App.",
+	"description": "a minimal TypeScript template for Create React App with tailwind.",
 	"license": "MIT",
 	"engines": {
 		"node": ">=10"
