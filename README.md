@@ -17,8 +17,9 @@ Tailwindcss is a utility first css framework that helps build and compose design
 All script available in `create-react-app` are available as well
 `npm run start`
 
-## tip 
-If you are working with images then use responsive images generator, by installing [Image Processing Pipeline](https://www.npmjs.com/package/@ipp/cli) and than `ipp -i your_image_path -o src/Asssets/images` to automatically generate different optimized web images for different screen size. after that include the generated images with: 
+## Tips
+If you are working with images, install the responsive images generator, [Image Processing Pipeline](https://www.npmjs.com/package/@ipp/cli) and than:
+ ```ipp -i your_image_path -o src/Asssets/images``` to automatically generate different optimized web images for different screen sizes: 
 
 ```jsx
 import React, { Component } from 'react';
